@@ -1,0 +1,8 @@
+/**
+ * Created by Administrator on 2016/11/1 0001.
+ */
+export const ADD_PRODUCTITEM='ADD_PRODUCTITEM';//增
+export const DELETE_PRODUCTITEM='DELETE_PRODUCTITEM';//删
+export const SHOW_PRODUCTITEM='SHOW_PRODUCTITEM';//查单个
+export const SHOW_PRODUCTLIST='SHOW_PRODUCTLIST';//查列表
+export const UPDATE_PRODUCTITEM='UPDATE_PRODUCTITEM';//改

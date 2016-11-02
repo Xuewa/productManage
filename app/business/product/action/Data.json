@@ -1,0 +1,79 @@
+[{"id":3,"name":"\u6d17\u8863\u6db2","price":50,
+  "desc":"\u84dd\u6708\u4eae\u6d17\u8863\u6db2 500ml",
+  "sold":20,
+  "spec":["\u84dd\u8272\u5305\u88c5","\u7ea2\u8272\u5305\u88c5"],
+  "express_price":10,
+  "express_type":0,
+  "express_remark":"",
+  "createtime":"2016-04-22 09:09:00",
+  "lastupdate":"2016-10-16 14:00:53",
+  "pic":[
+        {"desc":"\u84dd\u6708\u4eae\u6d17\u8863\u6db2_red",
+        "url":"dywx.dy-pm.com\/market-backend\/\/basic\/web\/img\/1471443446424.jpg"
+        },
+        {"desc":"\u84dd\u6708\u4eae\u6d17\u8863\u6db2_blue",
+        "url":"dywx.dy-pm.com\/market-backend\/\/basic\/web\/img\/1471443491588.jpg"
+        }
+      ]
+},{"id":6,"name":"\u98d8\u67d4\u6d17\u53d1\u6c34","price":0.01,
+  "desc":"\u65b0\u98d8\u67d4\u65e0\u7845\u6cb9\u6d17\u53d1\u6c34\uff0c\u96f6\u5934\u76ae\u5c51\uff0c\u8ba9\u4f60\u8fdc\u79bb\u5c34\u5c2c\uff0c\u8868\u73b0\u66f4\u51fa\u4f17\u3002",
+  "sold":300,
+  "spec":[""],
+  "express_price":0,
+  "express_type":1,
+  "express_remark":"1,0",
+  "createtime":"2016-04-24 00:00:00",
+  "lastupdate":"2016-10-16 14:00:57",
+  "pic":[{
+          "desc":"\u98d8\u67d4\u6d17\u53d1\u6c34_green",
+          "url":"dywx.dy-pm.com\/market-backend\/\/basic\/web\/img\/1471443664887.jpg"
+        },{
+          "desc":"\u98d8\u67d4\u6d17\u53d1\u6c34_ad_1",
+          "url":"dywx.dy-pm.com\/market-backend\/\/basic\/web\/img\/1471443686409.jpg"
+        },{
+          "desc":"\u98d8\u67d4\u6d17\u53d1\u6c34_ad_2",
+          "url":"dywx.dy-pm.com\/market-backend\/\/basic\/web\/img\/1471443704196.jpg"
+        },{
+          "desc":"\u98d8\u67d4\u6d17\u53d1\u6c34_ad_3",
+          "url":"dywx.dy-pm.com\/market-backend\/\/basic\/web\/img\/1471443730753.jpg"
+        }]
+},{"id":10,"name":"\u6d88\u6bd2\u6c34","price":50,
+  "desc":"\u5a01\u9732\u58eb\u6d88\u6bd2\u6c34 500ml",
+  "sold":20,
+  "spec":[""],
+  "express_price":10,
+  "express_type":0,
+  "express_remark":"",
+  "createtime":"2016-04-26 09:09:05",
+  "lastupdate":"2016-10-16 14:01:23",
+  "pic":[{
+            "desc":"wales\u6d88\u6bd2\u6c34_s",
+            "url":"dywx.dy-pm.com\/market-backend\/\/basic\/web\/img\/1471444326743.jpg"
+          },
+          {
+            "desc":"wales\u6d88\u6bd2\u6c34_ad_1",
+            "url":"dywx.dy-pm.com\/market-backend\/\/basic\/web\/img\/1471444337677.jpg"
+          },{
+            "desc":"wales\u6d88\u6bd2\u6c34_ad_2",
+            "url":"dywx.dy-pm.com\/market-backend\/\/basic\/web\/img\/1471444352490.jpg"
+        }]
+},
+{"id":15,"name":"\u4e4c\u6885\u5e72","price":20,
+  "desc":"\u4e4c\u6885\u5e72500g",
+  "sold":200,
+  "spec":["200g","300g"],
+  "express_price":10,
+  "express_type":0,
+  "express_remark":"",
+  "createtime":"2016-04-22 09:19:09",
+  "lastupdate":"2016-10-19 18:29:18",
+  "pic":[{"desc":"\u968f\u5546\u54c1\u4e0a\u4f20",
+        "url":"dywx.dy-pm.com\/market-backend\/\/basic\/web\/img\/1476872895837.jpg"
+        },
+        {"desc":"\u968f\u5546\u54c1\u4e0a\u4f20",
+          "url":"dywx.dy-pm.com\/market-backend\/\/basic\/web\/img\/1476872900631.jpg"
+        },
+        {"desc":"\u968f\u5546\u54c1\u4e0a\u4f20",
+        "url":"dywx.dy-pm.com\/market-backend\/\/basic\/web\/img\/147687290313.jpg"
+        }]
+}]
