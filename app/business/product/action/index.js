@@ -32,11 +32,32 @@ export function deleteProductItem(id){
 /**
  *ת��show item  action
  * */
-export function showProductItem(id){
+export function showProductItemById(id){
     return (dispatch,getState)=>{
+        $.ajax({
+            url:"...",
+            data:{id:id},
+            async:false,
+            success:function(rs){
+                rs=JSON.parse(rs).data;
+                dispatch({
+                    type:types.SHOW_PRODUCTLISTBYID,
+                    productItem:rs
+                });
+            }
+        });
+
+    };
+}
+/**
+ *ת��show item  action
+ * */
+export function showProductItem(prod){
+    return (dispatch,getState)=>{
+        console.log(prod);
         dispatch({
             type:types.SHOW_PRODUCTITEM,
-            id:id
+            productItem:prod
         });
     };
 }

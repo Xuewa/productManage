@@ -5,4 +5,5 @@
 /**
  * productListItem模块Reducer
  */
-export {default as ProductListReducer} from "./product/reducer/ProductListReducer"; 
+export {default as ProductListReducer} from "./product/reducer/ProductListReducer";
+export {default as ProductItemReducer} from "./product/reducer/ProductItemReducer";

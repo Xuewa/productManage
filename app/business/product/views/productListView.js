@@ -4,13 +4,13 @@
 require('../styles/productList.less');
 import React from 'react';
 import {connect} from 'react-redux';
-import {Link,hasHistory} from 'react-redux';
-import {showProductList,shwoProductDetailById} from '../action';
+import {Link,hashHistory} from 'react-router';
+import {showProductList,showProductItem} from '../action';
 
 var ProductListView=React.createClass({
-    clickHandler:function(id){
-        this.props.dispatch(showProductDetailById(id));
-        hashHistory.push("/detail/"+id);
+    clickHandler:function(prodObj){
+        this.props.dispatch(showProductItem(prodObj));
+        hashHistory.push("/detail");
     },
     render:function(){
         this.props.dispatch(showProductList());
@@ -23,7 +23,7 @@ var ProductListView=React.createClass({
             var imgUrl='http://'+item.pic[0].url;
             itemArr.push(
                         <li className="good_item">
-                            <a className="box"  onClick={this.clickHandler.bind(this,item.id)}>
+                            <a className="box"  onClick={this.clickHandler.bind(this,item)}>
                                 <img className="item_img left_col_img" src={imgUrl} />
 	                            <div className="right_col">
                                     <div className="row pro_name">{item.name}</div>

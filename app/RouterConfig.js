@@ -13,8 +13,7 @@ var RouterConfig=(
 	<Provider store={store} key="provider">
 		 <Router history={hashHistory}>
 	        <Route path="/" component={ProductListView} />
-		 	<Route path="/detail/(:productId)" component={ProductItemView} />
-
+		 	<Route path="/detail" component={ProductItemView} />
 		 </Router>
 	</Provider>);
 
